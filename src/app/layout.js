@@ -91,15 +91,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <meta property="og:image" content="./share.jpg"/>
+      <meta property="og:image" content="/share.jpg"/>
       <link rel="icon" type="image/png" href = "./funny messages.png" />
         <title>funny chat</title>
         {/* <link ref={"icon"} href="./funny messages.png"/> */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="funny chat_.t-a-ghe" />
+        <meta property="og:title" content="funny chat" />
         <meta property="og:description" content="Funny Chat is a chat app that allows you to chat with your / my friends with emojis and stickers"/>
-        <meta property="og:image" content="./share.jpg" />
-        <meta property="og:url" content="https://abdullah-t-funny-chat-hjni.vercel.app/" />
+        <meta property="og:image" content="/share.jpg" />
+        
         {/* <meta name="description" content="Funny Chat is a chat app that allows you to chat with your / my friends with emojis and stickers and funny // some key words => chat , chats , fun , funny , funny chat , sfunny chats , funny chat app , funny chat app for android , funny chat app for ios , funny chat app for windows , funny chat app for mac , funny chat app for linux , funny chat app for web , funny chat app for mobile , funny chat app for tablet , funny chat app for desktop , chat with friends , chat with friends app , chat with friends app for android , chat with friends app for ios , chat by stickers " /> */}
       </head>
       <UseUser.Provider value={{ user, setUser }}>
